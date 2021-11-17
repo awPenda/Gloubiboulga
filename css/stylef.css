@@ -1,0 +1,133 @@
+body{
+	background-color:black;
+}
+
+#perso{
+	background-image:url(../images/images/Personosprite.png);
+	background-repeat: no-repeat;
+	position:absolute;
+	top:150px;
+	left:500px;
+	height:400px;
+	width:200px;
+	z-index:1;
+}
+
+#texte0{
+	background-color: lightblue;
+	width:100px;
+	height: 50px;
+	position: absolute;
+	padding : 2%;
+	text-align:center;
+	border:2px solid white;
+	left:100px;
+	top: 100px;
+	z-index:0;
+	display: none;
+}
+
+#texte1{
+	background-color: lightblue;
+	width:150px;
+	height: 50px;
+	position: absolute;
+	padding : 2%;
+	text-align:center;
+	border:2px solid white;
+	left:990px;
+	top: 500px;
+	z-index:0;
+	display: none;
+}
+
+#texte2{
+	background-color: lightblue;
+	width:150px;
+	height: 25px;
+	position: absolute;
+	padding : 2%;
+	text-align:center;
+	border:2px solid white;
+	left:1000px;
+	top: 50px;
+	z-index:0;
+	display: none;
+}
+
+#texte3{
+	background-color: lightblue;
+	width:150px;
+	height: 50px;
+	position: absolute;
+	padding : 2%;
+	text-align:center;
+	border:2px solid white;
+	left:1050px;
+	top: 300px;
+	z-index:0;
+	display: none;
+}
+
+#texte4{
+	background-color: lightblue;
+	width:150px;
+	height: 50px;
+	position: absolute;
+	padding : 2%;
+	text-align:center;
+	border:2px solid white;
+	left:50px;
+	top: 300px;
+	z-index:0;
+	display: none;
+}
+
+#texte5{
+	background-color: lightblue;
+	width:70px;
+	height: 15px;
+	position: absolute;
+	padding : 2%;
+	text-align:center;
+	border:2px solid white;
+	left:100px;
+	top: 500px;
+	z-index:0;
+	display: none;
+}
+
+#texte6{
+	background-color: lightblue;
+	width:150px;
+	height: 25px;
+	position: absolute;
+	padding : 2%;
+	text-align:center;
+	border:2px solid white;
+	left:550px;
+	top: 50px;
+	z-index:0;
+	display: none;
+}
+
+#texte7{
+	background-color: lightblue;
+	width:150px;
+	height: 40px;
+	position: absolute;
+	padding : 2%;
+	text-align:center;
+	border:2px solid white;
+	left:550px;
+	top: 40px;
+	z-index:0;
+	display: none;
+}
+#fin{
+	text-align:center;
+	color:darkred;
+	font-size:400px;
+	text-shadow: 5px 5px 5px black;
+	display: none;
+}

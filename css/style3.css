@@ -1,0 +1,288 @@
+body{
+	background-color:black;
+}
+
+#texte0{
+	background-color: #f58e78;
+	width:150px;
+	height: 20px;
+	position: absolute;
+	display: none;
+	padding : 2%;
+	border:2px solid white;
+	left:80%;
+	top: 55%;
+	border-radius: 5px;
+}
+
+#texte1{
+	background-color: #f58e78;
+	width:150px;
+	height: 40px;
+	position: absolute;
+	display: none;
+	padding : 2%;
+	border:2px solid white;
+	left:80%;
+	top: 65%;
+	border-radius: 5px;
+}
+
+#texte2{
+	background-color: #f58e78;
+	width:150px;
+	height: 20px;
+	position: absolute;
+	display: none;
+	padding : 2%;
+	border:2px solid white;
+	left:45%;
+	top: 75%;
+	border-radius: 5px;
+}
+
+#texte3{
+	background-color: #f58e78;
+	width:150px;
+	height: 20px;
+	position: absolute;
+	display: none;
+	padding : 2%;
+	border:2px solid white;
+	left:45%;
+	top: 75%;
+	border-radius: 5px;
+}
+
+#manaperso{
+	background-color: lightblue;
+	width:70px;
+	height: 20px;
+	position: absolute;
+	display: none;
+	padding : 2%;
+	border:2px solid white;
+	left:5%;
+	top: 55%;
+	border-radius: 5px;
+}
+
+#vieperso{
+	background-color: #f58e78;
+	width:70px;
+	height: 20px;
+	position: absolute;
+	display: none;
+	padding : 2%;
+	border:2px solid white;
+	left:5%;
+	top: 65%;
+	border-radius: 5px;
+}
+
+#vieDV{
+	background-color: #f58e78;
+	width:70px;
+	height: 20px;
+	position: absolute;
+	display: none;
+	padding : 2%;
+	border:2px solid white;
+	left:85%;
+	top: 65%;
+	border-radius: 5px;
+}
+
+
+#menucombat{
+	background-color: darkred;
+	position :absolute;
+	width:200px;
+	height:120px;
+	top:580px;
+	left:448px;
+	display: none;
+	border:2px solid black;
+	border-radius: 5px;
+}
+
+#fuirbouton{
+	/**background-image:url(../images/sol/sol.png);
+	box-shadow:0px 5px 5px black;**/
+	background-repeat: no-repeat;
+	top:400px;
+	left:400px;
+	display: none;
+	border-left: 6px solid black;
+	background-color:grey;
+	border-radius:5px;
+	margin-bottom:5px;
+	margin-top: 10px;
+
+}
+
+
+#attaquerbouton{
+	/**background-image:url(../images/sol/sol.png);
+	box-shadow:0px 5px 5px black;**/
+	background-repeat: no-repeat;
+	top:600px;
+	left:400px;
+	display: none;
+	border-left: 6px solid black;
+	background-color:grey;
+	border-radius:5px;
+	margin-bottom: 5px;
+}
+
+
+#defendrebouton{
+	/**background-image:url(../images/sol/sol.png);
+	box-shadow:0px 5px 5px black;**/
+	background-repeat: no-repeat;
+	top:500px;
+	left:300px;
+	display: none;
+	border-left: 6px solid black;
+	background-color:grey;
+	border-radius:5px;
+	margin-bottom: 5px;
+}
+
+
+#specialbouton{
+	/**background-image:url(../images/sol/sol.png);
+	box-shadow:0px 5px 5px black;**/
+	background-repeat: no-repeat;
+	top:500px;
+	left:600px;
+	display: none;
+	border-left: 6px solid black;
+	background-color:grey;
+	border-radius:5px;
+	margin-bottom: 5px;
+}
+
+#boostbouton{
+	display: none;
+	position: absolute;
+	left:130px;
+	top: 150px;
+	border-left: 6px solid black;
+	background-color:grey;
+	border-radius:5px;
+	margin-bottom: 5px;
+}
+
+#magiebouton{
+	display: none;
+	position: absolute;
+	left:70px;
+	top: 120px;
+	border-left: 6px solid black;
+	background-color:grey;
+	border-radius:5px;
+	margin-bottom: 5px;
+}
+
+#healbouton{
+	display: none;
+	position: absolute;
+	left:15px;
+	top: 150px;
+	border-left: 6px solid black;
+	background-color:grey;
+	border-radius:5px;
+	margin-bottom: 5px;
+}
+
+
+
+
+#sol{
+	background-image:url(../images/sol/sol.png);
+	box-shadow:0px 5px 5px black;
+	position:absolute;
+	/**background-color:black;
+	background-repeat: no-repeat;**/
+	width:1000px;
+	height:50px;
+	top:950px
+}
+
+#solflotte{
+	background-image:url(../images/sol/sol.png);
+	box-shadow:0px 5px 5px black;
+	position:absolute;
+	/**background-color:black;
+	background-repeat: no-repeat;**/
+	left:450px;
+	width:200px;
+	height:50px;
+	top:650px
+}
+
+#background{
+	background-color: black;
+	position:absolute;
+	background-image:url(../images/10001000/image3.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	width:1000px;
+	height:1000px;
+	border-radius: 5px;
+}
+
+#darkvador{
+	position:absolute;
+	width:100px;
+	height:200px;
+	top:450px;
+	left:500px;
+	background-image:url(../images/darkvador.png);
+	background-repeat:no-repeat;
+}
+
+#inventaire{
+	background-color:white;
+	position:absolute;
+	left:1100px;
+	top:100px;
+	width:100px;
+	height:500px;
+	text-align:center;
+	border-radius: 5px;
+}
+#anneau{
+	background-image:url(../images/images/anneau.png);
+	background-repeat:no-repeat;
+	filter: drop-shadow(3px 3px 7px black);
+	position:relative;
+	z-index:1;
+	width:50px;
+	height:50px;
+	top:5px;
+	left:25px;
+	opacity:0;
+}
+#fromage{
+	background-image:url(../images/images/fromage.png);
+	background-repeat:no-repeat;
+	filter: drop-shadow(3px 3px 7px black);
+	position:relative;
+	z-index:1;
+	width:50px;
+	height:50px;
+	top:5px;
+	left:25px;
+	opacity:0;
+}
+#perso{
+	background-image:url(../images/images/Perso.png);
+	background-repeat: no-repeat;
+	filter: drop-shadow(5px 5px 3px black);
+	position:absolute;
+	width:100px;
+	height:200px;
+	top:750px;
+}

@@ -1,0 +1,135 @@
+body{
+	background-color:black;
+}
+
+#background{
+	background-image:url(../images/10001000/image6.jpg);
+	background-repeat:no-repeat;
+	background-position:center;
+	position:absolute;
+	width:1000px;
+	height:1000px;
+}
+#perso{
+	background-image:url(../images/images/Perso.png);
+	background-repeat: no-repeat;
+	filter: drop-shadow(5px 5px 3px black);
+	position:absolute;
+	background-color:_;
+	width:100px;
+	height:200px;
+	top:750px;
+		z-index:1;
+}
+#sol{
+	background-image:url(../images/sol/sol.png);
+	box-shadow:0px 5px 5px black;
+	position:absolute;
+	background-color:black;
+	width:1000px;
+	height:50px;
+	top:950px
+}
+
+#plateforme{
+	background-image:url(../images/sol/sol.png);
+	box-shadow:5px 5px 5px black;
+	position:absolute;
+	background-color:black;
+	width:500px;
+	height:50px;
+	left:250px;
+	top:650px;
+}
+
+#tp1{
+	background-image:url(../images/images/tp.png);
+	filter: drop-shadow(5px 5px 10px black);
+	position:absolute;
+	width:50px;
+	height:200px;
+	top:750px;
+	left:700px;
+	z-index:0;
+}
+
+#tp2{
+	background-image:url(../images/images/tp.png);
+	filter: drop-shadow(5px 5px 10px black);
+	position:absolute;
+	width:50px;
+	height:200px;
+	top:450px;
+	left:700px;
+	z-index:0;
+}
+
+#pikachu{
+	background-image:url(../images/images/pikachu.png);
+	background-repeat:no-repeat;
+	filter: drop-shadow(5px 5px 10px black);
+	position:absolute;
+	background-color:_;
+	width:50px;
+	height:50px;
+	left:450px;
+	top:600px;
+}
+
+#coffre{
+	position:absolute;
+	width:50px;
+	height:50px;
+	top:600px;
+	left:250px;
+	background-image:url(../images/images/coffre.png);
+	background-repeat:no-repeat;
+	z-index:1;
+}
+
+#anneau{
+	background-image:url(../images/images/anneau.png);
+	background-repeat:no-repeat;
+	filter: drop-shadow(3px 3px 7px black);
+	position:relative;
+	z-index:1;
+	width:50px;
+	height:50px;
+	left:250px;
+	top:600px;
+}
+
+#fromage{
+	background-image:url(../images/images/fromage.png);
+	background-repeat:no-repeat;
+	filter: drop-shadow(3px 3px 7px black);
+	position:relative;
+	z-index:1;
+	width:50px;
+	height:50px;
+	top:5px;
+	left:25px;
+	opacity:0;
+}
+
+#inventaire{
+	background-color:white;
+	position:absolute;
+	left:1100px;
+	top:100px;
+	width:100px;
+	height:500px;
+	text-align:center;
+	z-index:0;
+}
+#souv{
+	background-color: lightblue;
+	width:150px;
+	height: 100px;
+	position: absolute;
+	padding : 2%;
+	border:2px solid white;
+	left:1050px;
+	top: 700px;
+	z-index:0;
+}
