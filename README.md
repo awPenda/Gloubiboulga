@@ -1,5 +1,5 @@
 # Gloubiboulga
 
-Very old school project, sorry it hasn't aged well. 
+End of High school project, Full HTML/CSS/JQuery.
 
 You can access it here : https://awpenda.github.io/Gloubiboulga/ :D
